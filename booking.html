@@ -15,46 +15,53 @@
             oss.
         </p>
     </header>
-    <form>
-        <label for="Namn">Namn</label>
-        <input type="text" id="Namn" placeholder="Skriv för och efternamn" required>
-        <br>
-        <label for="Mail">E-post</label>
-        <input type="email" id="Mail" placeholder="Skriv din E-post här" required>
-        <br>
-        <label for="Datum">Datum</label>
-        <input type="date" id="Datum" required>
-        <br>
-        <label for="Tid">Tid</label>
-        <input type="time" id="Tid">
-        <br>
-        <label for="Personer">Antal personer</label>
-        <select id="Personer" required>
-            <option value="">Välj antal personer</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-        </select>
-        <br>
-        <label for="Meddelande">Meddelande (frivilligt)</label>
-        <br>
-        <textarea id="Meddelande" placeholder="Något vi behöver veta?" rows="2"></textarea>
-        <br>
-        <button type="submit">Skicka bokning</button>
+    <main>
+        <div>
+            <form>
+                <label for="Namn">Namn</label>
+                <input type="text" id="Namn" placeholder="Skriv för och efternamn" required>
+                <br>
+                <label for="Mail">E-post</label>
+                <input type="email" id="Mail" placeholder="Skriv din E-post här" required>
+                <br>
+                <label for="Datum">Datum</label>
+                <input type="date" id="Datum" required>
+                <br>
+                <label for="Tid">Tid</label>
+                <input type="time" id="Tid">
+                <br>
+                <label for="Personer">Antal personer</label>
+                <select id="Personer" required>
+                    <option value="">Välj antal personer</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <br>
+                <label for="Meddelande">Meddelande (frivilligt)</label>
+                <br>
+                <textarea id="Meddelande" placeholder="Något vi behöver veta?" rows="2"></textarea>
+                <br>
+                <button type="submit">Skicka bokning</button>
 
-    </form>
+            </form>
+        </div>
 
-    <h2>Bra att veta</h2>
-    <ul>
-        <li>Bordet hålls i 15 minuter efter bokad tid.</li>
-        <li>Vi har barnstolar och plats för barnvagn.</li>
-        <li>Hundar är välkomna på uteserveringen.</li>
-    </ul>
+        <section>
+            <h2>Bra att veta</h2>
+            <ul>
+                <li>Bordet hålls i 15 minuter efter bokad tid.</li>
+                <li>Vi har barnstolar och plats för barnvagn.</li>
+                <li>Hundar är välkomna på uteserveringen.</li>
+            </ul>
+        </section>
+    </main>
+
     <footer>
         <ul>
             <li>Hitta hit: Hörngatan 12, 118 65 Stockholm. Två minuter från Mariatorgets tunnelbana.
