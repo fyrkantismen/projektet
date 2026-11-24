@@ -27,3 +27,14 @@ h2,
 h3 {
     font-family: Georgia, serif;
 }
+
+button {
+    background-color: #B5502B;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #8F3E20;
+}
