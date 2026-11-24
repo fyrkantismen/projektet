@@ -49,6 +49,7 @@ button:hover {
     border: 1px solid #E6DCCF;
     border-radius: 12px;
     padding: 16px;
+    margin: 20px 0;
 }
 
 .light-box {
