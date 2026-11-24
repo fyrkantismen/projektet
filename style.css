@@ -7,9 +7,23 @@ Kommentar innanför här
 */
 
 body {
-  background-color: #FBF7F2;
-  color: #2B2118;
-  font-family: system-ui, Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.6;
+    background-color: #FBF7F2;
+    color: #2B2118;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a:hover {
+    color: #8F3E20;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: #B5502B;
 }
