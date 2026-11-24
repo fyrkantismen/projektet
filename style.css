@@ -41,3 +41,9 @@ button {
 button:hover {
     background-color: #8F3E20;
 }
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #E6DCCF;
+    border-radius: 12px;
+}
