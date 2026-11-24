@@ -1,7 +1,9 @@
 /*
 
 
-Kommentar innanför här
+light-box finns inte som class i html än
+green-text till javascript?
+error-text till javascript?
 
 
 */
@@ -46,4 +48,24 @@ button:hover {
     background-color: #FFFFFF;
     border: 1px solid #E6DCCF;
     border-radius: 12px;
+}
+
+.light-box {
+    background-color: #F1E8DC;
+}
+
+.green-text {
+    color: #5E7F5A;
+}
+
+.error-text {
+    color: #C0392B;
+}
+
+@media (max-width: 699px) {
+
+    body {
+        padding: 0 16px;
+    }
+
 }
