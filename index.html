@@ -11,50 +11,80 @@
   <header>
     <a href="index.html" class="logo">Kafé Hörnet</a>
     <nav>
-      <a href="index.html">Start</a> ·
+      <a href="index.html" aria-current="page">Start</a> ·
       <a href="menu.html">Meny</a> ·
       <a href="booking.html">Boka bord</a>
     </nav>
-    
+
   </header>
 
-  <p><button type="button">Boka bord?</button></p>
+
 
   <main>
-    <h1>Fika som på Farmors tid!</h1>
-    <p>Nybakat varje morgon, kaffe från ett litet rosteri i Järna och ett hörn som alltid är ledigt för dig. Välkommen
-      in.
-    </p>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Fika som på Farmors tid!</h1>
+        <p>Nybakat varje morgon, kaffe från ett litet rosteri i Järna och ett hörn som alltid är ledigt för dig.
+          Välkommen
+          in.
+        </p>
+        <p>
+          <a href="booking.html" class="booking-button">Boka bord</a>
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="hero.svg" alt="Glad tant som äter en bulle">
+      </div>
+    </section>
     <section>
       <h2>Veckans favoriter</h2>
-      <ol>
-        <li>Kanelbulle – Kardemumma i degen, pärlsocker på toppen. Bakad kl 06.30. – 38 kr</li>
-        <li>Latte – Dubbel espresso och skummad mjölk. Havremjölk utan extra kostnad. – 49 kr</li>
-        <li>Dagens soppa – Just nu: rostad tomatsoppa med surdegsbröd och örtolja. – 115 kr</li>
-      </ol>
+      <ul class="favorites">
+        <li class="card">
+          <img src="cinnamon-bun.svg" alt="Kanelbulle">
+          <h3>Kanelbulle</h3>
+          <p>Kardemumma i degen och pärlsocker på toppen.</p>
+          <p class="price">38 kr</p>
+        </li>
+        <li class="card">
+          <img src="latte.svg" alt="Ett glas latte">
+          <h3>Latte</h3>
+          <p>Dubbel espresso och skummad mjölk. Havremjölk utan extra kostnad.</p>
+          <p class="price">49 kr</p>
+        </li>
+        <li class="card">
+          <img src="soup.svg" alt="Tomatsoppa med bröd">
+          <h3>Dagens soppa</h3>
+          <p>Just nu: rostad tomatsoppa med surdegsbröd och örtolja.</p>
+          <p class="price">115 kr</p>
+        </li>
+      </ul>
     </section>
-    <section>
+    <section class="light-box">
       <h2>Öppet just nu</h2>
       <p>Vi har öppet måndag–fredag 07.30–18.00 och helger 09.00–17.00. Du hittar oss på Hörngatan 12, två minuter från
-        Mariatorget.
-      </p>
+        Mariatorget.</p>
+      <p><a href="menu.html">Se hela menyn</a></p>
     </section>
-
-    <p><strong>Se hela menyn </strong>→ <a href="menu.html">Här!</a></p>
 
   </main>
 
   <footer>
-    <ul>
-      <li>Hitta hit: Hörngatan 12, 118 65 Stockholm. Två minuter från Mariatorgets tunnelbana.
-      </li>
-      <li>Öppettider: Måndag–fredag 07.30–18.00. Lördag–söndag 09.00–17.00.
-      </li>
-      <li>Kontakt: hej@kafehornet.example · 08-123 456 78
-      </li>
-      <li>© Kafé Hörnet 2026
-      </li>
-    </ul>
+    <section>
+      <h2>Hitta hit</h2>
+      <p>Hörngatan 12, 118 65 Stockholm.</p>
+      <p>Två minuter från Mariatorgets tunnelbana.</p>
+    </section>
+    <section>
+      <h2>Öppettider</h2>
+      <p>Måndag–fredag 07.30–18.00</p>
+      <p>Lördag–söndag 09.00–17.00</p>
+    </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p>hej@kafehornet.example</p>
+      <p>08-123 456 78</p>
+    </section>
+    <p>© Kafé Hörnet 2026</p>
   </footer>
 </body>
 

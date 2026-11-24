@@ -12,7 +12,7 @@
         <a href="index.html" class="logo">Kafé Hörnet</a>
         <nav>
             <a href="index.html">Start</a> ·
-            <a href="menu.html">Meny</a> ·
+            <a href="menu.html" aria-current="page">Meny</a> ·
             <a href="booking.html">Boka bord</a>
         </nav>
 
@@ -24,11 +24,15 @@
         <section>
             <h2>Kaffe</h2>
             <ul>
-                <li>Bryggkaffe – Dagens bryggning från Järna Rosteri. Påtår ingår. – 35 kr</li>
-                <li>Espresso – Dubbel. – 32 kr</li>
-                <li>Cappuccino – Espresso, mjölk, mjölkskum. – 45 kr</li>
-                <li>Latte – Dubbel espresso och skummad mjölk. – 49 kr</li>
-                <li>Chai latte (vegansk) – Kryddigt te med havremjölk. – 49 kr</li>
+                <li class="menu-item">
+                    <div class="menu-info">
+                        <strong>Bryggkaffe</strong>
+                        <p class="menu-description">
+                            Dagens bryggning från Järna Rosteri. Påtår ingår.
+                        </p>
+                    </div>
+                    <span class="menu-price">35 kr</span>
+                </li>
             </ul>
         </section>
 
@@ -56,16 +60,22 @@
 
     </main>
     <footer>
-        <ul>
-            <li>Hitta hit: Hörngatan 12, 118 65 Stockholm. Två minuter från Mariatorgets tunnelbana.
-            </li>
-            <li>Öppettider: Måndag–fredag 07.30–18.00. Lördag–söndag 09.00–17.00.
-            </li>
-            <li>Kontakt: hej@kafehornet.example · 08-123 456 78
-            </li>
-            <li>© Kafé Hörnet 2026
-            </li>
-        </ul>
+        <section>
+            <h2>Hitta hit</h2>
+            <p>Hörngatan 12, 118 65 Stockholm.</p>
+            <p>Två minuter från Mariatorgets tunnelbana.</p>
+        </section>
+        <section>
+            <h2>Öppettider</h2>
+            <p>Måndag–fredag 07.30–18.00</p>
+            <p>Lördag–söndag 09.00–17.00</p>
+        </section>
+        <section>
+            <h2>Kontakt</h2>
+            <p>hej@kafehornet.example</p>
+            <p>08-123 456 78</p>
+        </section>
+        <p>© Kafé Hörnet 2026</p>
     </footer>
 </body>
 

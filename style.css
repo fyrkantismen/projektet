@@ -31,10 +31,32 @@ a:hover {
     color: #8F3E20;
 }
 
+a[aria-current="page"] {
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3 {
     font-family: Georgia, serif;
+}
+
+.booking-button {
+    display: inline-block;
+    background-color: #B5502B;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.booking-button:hover {
+    background-color: #8F3E20;
+    color: white;
 }
 
 button {
@@ -42,10 +64,29 @@ button {
     color: white;
     padding: 12px 24px;
     border-radius: 8px;
+    border: none;
+    font: inherit;
 }
 
 button:hover {
     background-color: #8F3E20;
+}
+
+.hero-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text,
+.hero-image {
+    flex: 1;
 }
 
 .card {
@@ -56,9 +97,34 @@ button:hover {
     margin: 20px 0;
 }
 
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    color: #B5502B;
+}
+
+.menu-description {
+    font-size: 0.9em;
+    color: #706860;
+}
+
+.menu-price {
+    color: #B5502B;
+    font-weight: bold;
+}
+
 .light-box {
     background-color: #F1E8DC;
+    padding: 24px;
+    border-radius: 12px;
 }
+
+
 
 .green-text {
     color: #5E7F5A;
@@ -66,12 +132,4 @@ button:hover {
 
 .error-text {
     color: #C0392B;
-}
-
-@media (max-width: 699px) {
-
-    body {
-        padding: 0 16px;
-    }
-
 }
