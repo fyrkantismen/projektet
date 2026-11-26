@@ -174,11 +174,22 @@ button:hover {
 }
 
 .vegan-label {
+    display: inline-block;
     background-color: #5E7F5A;
     color: white;
     font-size: 12px;
-    padding: 3px 8px;
-    border-radius: 12px;
+    padding: 4px 10px;
+
+    clip-path: polygon(8px 0,
+            calc(100% - 8px) 0,
+            100% 8px,
+            100% calc(100% - 8px),
+            calc(100% - 8px) 100%,
+            8px 100%,
+            0 calc(100% - 8px),
+            0 8px);
+
+    transform: rotate(-5deg);
 }
 
 .menu-item {
